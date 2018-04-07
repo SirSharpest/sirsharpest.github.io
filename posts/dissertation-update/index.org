@@ -37,4 +37,8 @@ in the data that I've gathered.
 Our methods for finding meaning have become rather primitive as the below image demonstrates :) myself and a few others searched
 through my graphs in the office the other day to see if anything jumped out at us for further exploration. I can't be sharing data yet, but a lot of things have become more interesting and we are very eager to explore!
 
+#+CAPTION: Graphs galore!
+#+LABEL: fig:graphs
+#+name: fig:graphs
+#+attr_html: :width 800px
 [[img-url:/images/floor.jpg]]
