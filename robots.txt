@@ -1,4 +1,0 @@
-Sitemap: https://sirsharpest.github.io/sitemapindex.xml
-
-User-Agent: *
-Host: sirsharpest.github.io
