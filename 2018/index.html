@@ -21,7 +21,7 @@ article: http://ogp.me/ns/article#
 
 <!-- Menubar -->
 
-<nav class="navbar  header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+<nav class="navbar navbar-info header-panel shadow-z-3" role="navigation"><div class="container-fluid">
         <div class="row">
           <div class="col-xs-3">
             <h1 class="title-blog">
@@ -91,14 +91,32 @@ article: http://ogp.me/ns/article#
         </div>
         <div class="source-button">
         </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
 
 
             <script src="../assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#55ACEE",
+                            "url": "https://twitter.com/sirsharpest",
+                        },
+                        {
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#666666",
+                            "url": "https://github.com/sirsharpest",
+                        },
+                ];
 
             $(document).ready(function() {
                 // This command is used to initialize some elements and make them work properly
                 $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
             });
 
             $(window).on("resize", function() {

@@ -36,7 +36,7 @@ This is my brand new blog, problems with my past hosting service, a nauseating C
 
 <!-- Menubar -->
 
-<nav class="navbar  header-panel shadow-z-3" role="navigation"><div class="container-fluid">
+<nav class="navbar navbar-info header-panel shadow-z-3" role="navigation"><div class="container-fluid">
         <div class="row">
           <div class="col-xs-3">
             <h1 class="title-blog">
@@ -67,7 +67,7 @@ This is my brand new blog, problems with my past hosting service, a nauseating C
 <div class="metadata">
             <span class="byline author vcard">
                 <a href=".">
-                        <i class="mdi-action-face-unlock"></i>
+                        <img class="img-circle" src="../../images/avatar.jpg" alt="icon">
                     Nathan Hughes
                 </a>
             </span>
@@ -114,7 +114,7 @@ Mostly I wanted a method of informally discussing my current projects and intere
         <hr>
 <div id="disqus_thread"></div>
         <script>
-        var disqus_shortname ="sirsharpest",
+        var disqus_shortname ="https-sirsharpest-github-io",
             disqus_url="https://sirsharpest.github.io/posts/call-me-ishmael/",
         disqus_title="Call me Ishmael",
         disqus_identifier="cache/posts/call-me-ishmael.html",
@@ -131,7 +131,7 @@ Mostly I wanted a method of informally discussing my current projects and intere
     <a href="https://disqus.com" class="dsq-brlink" rel="nofollow">Comments powered by <span class="logo-disqus">Disqus</span></a>
 
 
-        </section></article><script>var disqus_shortname="sirsharpest";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
+        </section></article><script>var disqus_shortname="https-sirsharpest-github-io";(function(){var a=document.createElement("script");a.async=true;a.src="https://"+disqus_shortname+".disqus.com/count.js";(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}());</script>
 </div>
             </div>
         </div>
@@ -161,14 +161,32 @@ Mostly I wanted a method of informally discussing my current projects and intere
     </a>
 
         </div>
+        <div class="kc_fab_wrapper"></div>
 </div>
 
 
             <script src="../../assets/js/all-nocdn.js"></script><script>
+                var links = [
+                        {
+                            "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#55ACEE",
+                            "url": "https://twitter.com/sirsharpest",
+                        },
+                        {
+                            "icon": "<i class='fa fa-github-square'></i>",
+                            "color": "#fffff",
+                            "target": "_blank",
+                            "bgcolor": "#666666",
+                            "url": "https://github.com/sirsharpest",
+                        },
+                ];
 
             $(document).ready(function() {
                 // This command is used to initialize some elements and make them work properly
                 $.material.init();
+                    $('.kc_fab_wrapper').kc_fab(links);
             });
 
             $(window).on("resize", function() {
