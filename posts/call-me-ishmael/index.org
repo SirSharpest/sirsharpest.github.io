@@ -3,7 +3,7 @@
 .. slug: call-me-ishmael
 .. date: 2018-04-07 22:17:15 UTC+01:00
 .. tags: rant, blog
-.. category:
+.. category: blog
 .. link:
 .. description:
 .. type: text

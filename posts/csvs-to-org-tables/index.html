@@ -6,31 +6,26 @@ article: http://ogp.me/ns/article#
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Call me Ishmael | Nathan Hughes' blog</title>
+<title>Read CSVs to org tables | Nathan Hughes' blog</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../../rss.xml">
-<link rel="canonical" href="https://sirsharpest.github.io/posts/call-me-ishmael/">
+<link rel="canonical" href="https://sirsharpest.github.io/posts/csvs-to-org-tables/">
 <!--[if lt IE 9]>
             <script src="../../assets/js/html5shiv.min.js"></script>
             <script src="../../assets/js/respond.min.js"></script>
         <![endif]--><meta name="author" content="Nathan Hughes">
-<link rel="next" href="../csvs-to-org-tables/" title="Read CSVs to org tables" type="text/html">
+<link rel="prev" href="../call-me-ishmael/" title="Call me Ishmael" type="text/html">
 <meta property="og:site_name" content="Nathan Hughes' blog">
-<meta property="og:title" content="Call me Ishmael">
-<meta property="og:url" content="https://sirsharpest.github.io/posts/call-me-ishmael/">
-<meta property="og:description" content="Where am I?
+<meta property="og:title" content="Read CSVs to org tables">
+<meta property="og:url" content="https://sirsharpest.github.io/posts/csvs-to-org-tables/">
+<meta property="og:description" content="Turning CSV files into beautiful org-mode tables
 
 
-This is my brand new blog, problems with my past hosting service, a nauseating CMS (wordpress) and a desire to write my rants in the beautiful org-mode led me to creating this site.
-
-
-
-
-">
+One thing I find myself doing a lot is working with CSV (comma separated value) files, I store a lot of my data in them. I also find that I need to e">
 <meta property="og:type" content="article">
-<meta property="article:published_time" content="2018-04-07T22:17:15+01:00">
-<meta property="article:tag" content="blog">
-<meta property="article:tag" content="rant">
+<meta property="article:published_time" content="2018-04-07T23:04:15+01:00">
+<meta property="article:tag" content="coding">
+<meta property="article:tag" content="emacs">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -63,7 +58,7 @@ This is my brand new blog, problems with my past hosting service, a nauseating C
                 </ul>
 <ul></ul></nav><div class="posts-material col-xs-12 col-sm-9">
                 <div class="col-xs-12 col-md-11 content-material">
-<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Call me Ishmael</a></h1>
+<article class="post-text h-entry hentry postpage" itemscope="itemscope" itemtype="http://schema.org/Article"><header><h1 class="p-name entry-title" itemprop="headline name"><a href="." class="u-url">Read CSVs to org tables</a></h1>
 <hr>
 <div class="metadata">
             <span class="byline author vcard">
@@ -74,44 +69,57 @@ This is my brand new blog, problems with my past hosting service, a nauseating C
             </span>
             <span class="dateline">
                 <a href="." rel="bookmark"><i class="mdi-device-access-time"></i>
-                    <time class="published dt-published" datetime="2018-04-07T22:17:15+01:00" itemprop="datePublished" title="2018-04-07 22:17">2018-04-07 22:17</time></a>
+                    <time class="published dt-published" datetime="2018-04-07T23:04:15+01:00" itemprop="datePublished" title="2018-04-07 23:04">2018-04-07 23:04</time></a>
             </span>
-                <span class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/call-me-ishmael.html">Comments</a>
+                <span class="commentline">            <a href="#disqus_thread" data-disqus-identifier="cache/posts/org-to-table.html">Comments</a>
 
 </span>
         </div>
         
         <hr></header><div class="e-content entry-content" itemprop="articleBody text">
     <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Where am I?</h2>
+<h2 id="sec-1">Turning CSV files into beautiful org-mode tables</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-This is my <b>brand</b> new blog, problems with my past hosting service, a nauseating CMS (wordpress) and a desire to write my rants in the beautiful org-mode led me to creating this site.
-</p>
-</div>
-</div>
-
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">What's it for?</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-What's any blog for really?
+One thing I find myself doing a lot is working with CSV (comma separated value) files, I store a lot of my data in them. I also find that I need to edit them a lot, or check the values in them. I generally then want to use them in reports that I write, at least I like to put in samples of the data to give readers an indication of what I'm talking about.
 </p>
 
 <p>
-Mostly I wanted a method of informally discussing my current projects and interests and possibly write a tutorial or two as well.
+Since I write almost everything in org-mode these days I wrote this little function, partially to teach myself more elisp and partially because it actually is useful for me day to day.
+It simply takes a file location from the user and formats a nice org mode style table.
 </p>
+</div>
+
+<div id="outline-container-sec-1-1" class="outline-3">
+<h3 id="sec-1-1">Elisp code</h3>
+<div class="outline-text-3" id="text-1-1">
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="nf">defun</span> <span class="nv">org-read-csv</span> <span class="p">()</span>
+  <span class="p">(</span><span class="nf">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">progn</span>
+    <span class="p">(</span><span class="nf">find-file</span> <span class="p">(</span><span class="nf">read-file-name</span> <span class="s">"CSV location:"</span><span class="p">))</span>
+    <span class="p">(</span><span class="nf">org-mode</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">goto-char</span> <span class="p">(</span><span class="nf">point-min</span><span class="p">))</span>
+    <span class="p">(</span><span class="nf">insert</span> <span class="s">"|"</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">while</span> <span class="p">(</span><span class="nf">re-search-forward</span> <span class="s">"\n"</span> <span class="nv">nil</span> <span class="nv">t</span><span class="p">)</span>
+      <span class="p">(</span><span class="nf">replace-match</span> <span class="s">"|\n|"</span><span class="p">))</span>
+    <span class="p">(</span><span class="nf">delete-char</span> <span class="mi">-1</span><span class="p">)</span>
+    <span class="p">(</span><span class="nf">while</span> <span class="p">(</span><span class="nf">re-search-backward</span> <span class="s">","</span> <span class="nv">nil</span> <span class="nv">t</span><span class="p">)</span>
+      <span class="p">(</span><span class="nf">replace-match</span> <span class="s">"|"</span><span class="p">))</span>
+    <span class="p">(</span><span class="nf">org-table-align</span><span class="p">)</span>
+    <span class="p">))</span>
+</pre></div>
+</div>
 </div>
 </div>
     </div>
     <aside class="postpromonav"><nav><div itemprop="keywords" class="tags">
-            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/blog/" rel="tag">blog</a>
-            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/rant/" rel="tag">rant</a>
+            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/coding/" rel="tag">coding</a>
+            <a class="tag p-category btn btn-success btn-raised btn-sm" href="../../categories/emacs/" rel="tag">emacs</a>
         </div>
 
             <ul class="pager">
-<li class="next">
-                <a href="../csvs-to-org-tables/" rel="next" title="Read CSVs to org tables">Next post</a>
+<li class="previous">
+                <a href="../call-me-ishmael/" rel="prev" title="Call me Ishmael">Previous post</a>
             </li>
         </ul></nav></aside><section class="comments"><h2>
 <i class="mdi-communication-forum"></i>Comments</h2>
@@ -119,9 +127,9 @@ Mostly I wanted a method of informally discussing my current projects and intere
 <div id="disqus_thread"></div>
         <script>
         var disqus_shortname ="https-sirsharpest-github-io",
-            disqus_url="https://sirsharpest.github.io/posts/call-me-ishmael/",
-        disqus_title="Call me Ishmael",
-        disqus_identifier="cache/posts/call-me-ishmael.html",
+            disqus_url="https://sirsharpest.github.io/posts/csvs-to-org-tables/",
+        disqus_title="Read CSVs to org tables",
+        disqus_identifier="cache/posts/org-to-table.html",
         disqus_config = function () {
             this.language = "en";
         };

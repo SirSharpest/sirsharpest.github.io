@@ -15,15 +15,31 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-07T22:00:00Z</lastmod>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-07T21:18:00Z</lastmod>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
   <lastmod>2018-04-07T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/cat_blog/</loc>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/cat_emacs/</loc>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/coding/</loc>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/emacs/</loc>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/rant/</loc>
@@ -40,5 +56,9 @@
  <url>
   <loc>https://sirsharpest.github.io/posts/call-me-ishmael/</loc>
   <lastmod>2018-04-07T21:18:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/csvs-to-org-tables/</loc>
+  <lastmod>2018-04-07T22:09:00Z</lastmod>
  </url>
 </urlset>
