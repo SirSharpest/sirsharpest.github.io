@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-07T22:45:00Z</lastmod>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-07T22:28:00Z</lastmod>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
@@ -35,7 +35,7 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/cat_research/</loc>
-  <lastmod>2018-04-07T22:28:00Z</lastmod>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/coding/</loc>
@@ -43,7 +43,7 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/dissertation/</loc>
-  <lastmod>2018-04-07T22:28:00Z</lastmod>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/emacs/</loc>
@@ -55,7 +55,7 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/research/</loc>
-  <lastmod>2018-04-07T22:28:00Z</lastmod>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/galleries/</loc>
@@ -72,5 +72,9 @@
  <url>
   <loc>https://sirsharpest.github.io/posts/csvs-to-org-tables/</loc>
   <lastmod>2018-04-07T22:09:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/dissertation-update/</loc>
+  <lastmod>2018-04-08T00:18:00Z</lastmod>
  </url>
 </urlset>
