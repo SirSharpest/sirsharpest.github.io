@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-09T00:56:00Z</lastmod>
+  <lastmod>2018-04-09T23:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-08T00:18:00Z</lastmod>
+  <lastmod>2018-04-09T23:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
@@ -50,6 +50,10 @@
   <lastmod>2018-04-07T22:09:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sirsharpest.github.io/categories/programming/</loc>
+  <lastmod>2018-04-09T23:27:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sirsharpest.github.io/categories/rant/</loc>
   <lastmod>2018-04-07T21:18:00Z</lastmod>
  </url>
@@ -64,6 +68,10 @@
  <url>
   <loc>https://sirsharpest.github.io/listings/</loc>
   <lastmod>2018-04-07T21:14:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</loc>
+  <lastmod>2018-04-09T23:27:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/call-me-ishmael/</loc>

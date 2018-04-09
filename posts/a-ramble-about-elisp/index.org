@@ -1,0 +1,64 @@
+#+BEGIN_COMMENT
+.. title: A Ramble About ELisp
+.. slug: a-ramble-about-elisp
+.. date: 2018-04-10 00:09:40 UTC+01:00
+.. tags: emacs, programming
+.. category: emacs
+.. link:
+.. description: A little ramble about elispy  thoughts
+.. type: text
+#+END_COMMENT
+
+* My current language situation
+
+My first programming language was C++, about 11 years ago I picked up the book "C++ for dummies". Like many teenagers I wanted to make my own games and every resource I came across told me that I would need to learn C++. So I did.
+
+#+CAPTION: One book which I do not recommend, now that I am wiser!
+#+LABEL: fig:dummies
+#+name: fig:dummies
+#+ATTR_HTML: :width 40% :align center
+[[../../images/dummies.jpg]]
+
+For about 7 of those years I developed solely in C/C++ only ever using Java, HTML and JavaScript for assignments at college. To me I was a person who only cared about efficiency and therefore all other languages were a distraction from creating smooth and lightweight applications.
+
+It was about 3/4 years ago now that I picked up Python as a language, I wanted to scrape websites to get pdf documents which were behind verbose menus and godawful UIs (ahem BlackBoard). I reasoned with myself that Python was a good addition to my kit as it provided a "get it done quickly" tool, I ended up using it more and more. Now all of my work is Python based, all of my analysis is dependant on Python libraries (Matplotlib, Pandas, Scipy etc.).
+
+My point of this initial rant is that I created an annoying situation for myself. When presented with a challenge or task I would consider these two options:
+
+1. Do I want it written quickly? - Use Python
+2. Do I want it to perform efficiently - Use C/C++
+
+As someone who genuinely loves programming and playing with new languages, this became annoying. I could no longer find motivation to learn another language well. There was no benefit to me. Sure there are arguments, but for something to impact my work, my hobbies or my efficiency there was no real contender.
+
+* Along comes emacs
+
+I'll spare the story about how emacs changed my life and I was saved from a life of cumbersome IDEs. The short of it is, emacs became my editor around the same time I picked up Python.
+
+A few months ago however I started to truly love emacs, building an editor to be exactly what I needed and wanted. I changed the way that I thought about the code I was writing. It clicked with me that the code itself was just data and so much of the work is how we think about it and manipulate it.
+
+* elisp
+Emacs isn't a text editor. It's a lisp interpreter, it just happens to be a great editor when you toy with it enough (paraphrasing the old operating system joke there!).
+
+Really though, this is true. Emacs has given me something which I was wanting for so long. A solid reason to learn a language which I could incorporate into my daily work routine, something which would make me better at my tasks.
+
+A great example (to me) of this is my first elisp function:
+
+#+BEGIN_SRC emacs-lisp
+  (defun dear-diary ()
+    "This function can be used to create an org file with today as it's file name."
+    (interactive)
+    (find-file  (concat "~/Dropbox/Notes/" (format-time-string "%Y-%m-%d.org" ))))
+#+END_SRC
+
+For anyone unfamiliar with elisp, it simply opens a file with today's date in my dropbox. It's something I use almost everyday to keep track of what I've done and what I need to follow up on with my projects.
+
+This code however, is nothing to some of the amazing things that other people create!
+
+#+BEGIN_EXPORT html
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A bigger bang-for-your-buck demo of CSV transpose <a href="https://t.co/Z3fTYmOhQP">pic.twitter.com/Z3fTYmOhQP</a></p>&mdash; emacs gifs (@emacs_gifs) <a href="https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc%5Etfw">October 7, 2016</a></blockquote>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+#+END_EXPORT
+
+This beautiful example of transposing a CSV file is just one example I came across the other day.
+
+Maybe it's simple, but writing code which changes how we code is something that I am endlessly fascinated by.

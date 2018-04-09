@@ -14,7 +14,7 @@ article: http://ogp.me/ns/article#
 <!--[if lt IE 9]>
             <script src="assets/js/html5shiv.min.js"></script>
             <script src="assets/js/respond.min.js"></script>
-        <![endif]--><link rel="prefetch" href="posts/dissertation-update/" type="text/html">
+        <![endif]--><link rel="prefetch" href="posts/a-ramble-about-elisp/" type="text/html">
 </head>
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
@@ -50,7 +50,117 @@ article: http://ogp.me/ns/article#
 
     <div class="postindex well post-material ">
     
-        <article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="posts/dissertation-update/" class="u-url">Dissertation Update</a></h1>
+        <article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="posts/a-ramble-about-elisp/" class="u-url">A Ramble About ELisp</a></h1>
+            <div class="metadata">
+                <span class="byline author vcard">
+                        <img class="img-circle" src="images/avatar.jpg" alt="icon">
+                    Nathan Hughes
+                </span>
+                <span class="dateline"><a href="posts/a-ramble-about-elisp/" rel="bookmark">
+                    <i class="mdi-device-access-time"></i><time class="published dt-published" datetime="2018-04-10T00:09:40+01:00" title="2018-04-10 00:09">2018-04-10 00:09</time></a></span>
+                    <span class="commentline">            <a href="posts/a-ramble-about-elisp/#disqus_thread" data-disqus-identifier="cache/posts/a-ramble-about-elisp.html">Comments</a>
+
+</span>
+            </div>
+            <hr></header><div class="e-content entry-content">
+        <div id="outline-container-sec-1" class="outline-2">
+<h2 id="sec-1">My current language situation</h2>
+<div class="outline-text-2" id="text-1">
+<p>
+My first programming language was C++, about 11 years ago I picked up the book "C++ for dummies". Like many teenagers I wanted to make my own games and every resource I came across told me that I would need to learn C++. So I did.
+</p>
+
+
+<div id="fig:dummies" class="figure">
+<p><img src="images/dummies.jpg" alt="dummies.jpg" width="40%" align="center"></p>
+<p><span class="figure-number">Figure 1:</span> One book which I do not recommend, now that I am wiser!</p>
+</div>
+
+<p>
+For about 7 of those years I developed solely in C/C++ only ever using Java, HTML and JavaScript for assignments at college. To me I was a person who only cared about efficiency and therefore all other languages were a distraction from creating smooth and lightweight applications.
+</p>
+
+<p>
+It was about 3/4 years ago now that I picked up Python as a language, I wanted to scrape websites to get pdf documents which were behind verbose menus and godawful UIs (ahem BlackBoard). I reasoned with myself that Python was a good addition to my kit as it provided a "get it done quickly" tool, I ended up using it more and more. Now all of my work is Python based, all of my analysis is dependant on Python libraries (Matplotlib, Pandas, Scipy etc.).
+</p>
+
+<p>
+My point of this initial rant is that I created an annoying situation for myself. When presented with a challenge or task I would consider these two options:
+</p>
+
+<ol class="org-ol">
+<li>Do I want it written quickly? - Use Python
+</li>
+<li>Do I want it to perform efficiently - Use C/C++
+</li>
+</ol>
+<p>
+As someone who genuinely loves programming and playing with new languages, this became annoying. I could no longer find motivation to learn another language well. There was no benefit to me. Sure there are arguments, but for something to impact my work, my hobbies or my efficiency there was no real contender.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-2" class="outline-2">
+<h2 id="sec-2">Along comes emacs</h2>
+<div class="outline-text-2" id="text-2">
+<p>
+I'll spare the story about how emacs changed my life and I was saved from a life of cumbersome IDEs. The short of it is, emacs became my editor around the same time I picked up Python.
+</p>
+
+<p>
+A few months ago however I started to truly love emacs, building an editor to be exactly what I needed and wanted. I changed the way that I thought about the code I was writing. It clicked with me that the code itself was just data and so much of the work is how we think about it and manipulate it.
+</p>
+</div>
+</div>
+
+<div id="outline-container-sec-3" class="outline-2">
+<h2 id="sec-3">elisp</h2>
+<div class="outline-text-2" id="text-3">
+<p>
+Emacs isn't a text editor. It's a lisp interpreter, it just happens to be a great editor when you toy with it enough (paraphrasing the old operating system joke there!).
+</p>
+
+<p>
+Really though, this is true. Emacs has given me something which I was wanting for so long. A solid reason to learn a language which I could incorporate into my daily work routine, something which would make me better at my tasks.
+</p>
+
+<p>
+A great example (to me) of this is my first elisp function:
+</p>
+
+<div class="highlight"><pre><span></span><span class="p">(</span><span class="nf">defun</span> <span class="nv">dear-diary</span> <span class="p">()</span>
+  <span class="s">"This function can be used to create an org file with today as it's file name."</span>
+  <span class="p">(</span><span class="nf">interactive</span><span class="p">)</span>
+  <span class="p">(</span><span class="nf">find-file</span>  <span class="p">(</span><span class="nf">concat</span> <span class="s">"~/Dropbox/Notes/"</span> <span class="p">(</span><span class="nf">format-time-string</span> <span class="s">"%Y-%m-%d.org"</span> <span class="p">))))</span>
+</pre></div>
+
+<p>
+For anyone unfamiliar with elisp, it simply opens a file with today's date in my dropbox. It's something I use almost everyday to keep track of what I've done and what I need to follow up on with my projects.
+</p>
+
+<p>
+This code however, is nothing to some of the amazing things that other people create!
+</p>
+
+<div class="export">
+<p>
+&lt;blockquote class="twitter-tweet" data-lang="en"&gt;&lt;p lang="en" dir="ltr"&gt;A bigger bang-for-your-buck demo of CSV transpose &lt;a href="<a href="https://t.co/Z3fTYmOhQP">https://t.co/Z3fTYmOhQP</a>"&gt;pic.twitter.com/Z3fTYmOhQP&lt;/a&gt;&lt;/p&gt;&amp;mdash; emacs gifs (@emacs<sub>gifs</sub>) &lt;a href="<a href="https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc%5Etfw">https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc^tfw</a>"&gt;October 7, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src="<a href="https://platform.twitter.com/widgets.js">https://platform.twitter.com/widgets.js</a>" charset="utf-8"&gt;&lt;/script&gt;
+</p>
+
+</div>
+
+<p>
+This beautiful example of transposing a CSV file is just one example I came across the other day.
+</p>
+
+<p>
+Maybe it's simple, but writing code which changes how we code is something that I am endlessly fascinated by.
+</p>
+</div>
+</div>
+        </div>
+        </article><article class="h-entry post-text"><header><h1 class="p-name entry-title header"><a href="posts/dissertation-update/" class="u-url">Dissertation Update</a></h1>
             <div class="metadata">
                 <span class="byline author vcard">
                         <img class="img-circle" src="images/avatar.jpg" alt="icon">
@@ -248,11 +358,11 @@ Mostly I wanted a method of informally discussing my current projects and intere
             <script src="assets/js/all-nocdn.js"></script><script>
                 var links = [
                         {
-                            "target": "_blank",
-                            "color": "#fffff",
                             "bgcolor": "#55ACEE",
+                            "target": "_blank",
                             "url": "https://twitter.com/sirsharpest",
                             "icon": "<i class='fa fa-twitter'></i>",
+                            "color": "#fffff",
                         },
                 ];
 
