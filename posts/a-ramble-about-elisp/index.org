@@ -13,12 +13,6 @@
 
 My first programming language was C++, about 11 years ago I picked up the book "C++ for dummies". Like many teenagers I wanted to make my own games and every resource I came across told me that I would need to learn C++. So I did.
 
-#+CAPTION: One book which I do not recommend, now that I am wiser!
-#+LABEL: fig:dummies
-#+name: fig:dummies
-#+ATTR_HTML: :width 40% :align center
-[[../../images/dummies.jpg]]
-
 For about 7 of those years I developed solely in C/C++ only ever using Java, HTML and JavaScript for assignments at college. To me I was a person who only cared about efficiency and therefore all other languages were a distraction from creating smooth and lightweight applications.
 
 It was about 3/4 years ago now that I picked up Python as a language, I wanted to scrape websites to get pdf documents which were behind verbose menus and godawful UIs (ahem BlackBoard). I reasoned with myself that Python was a good addition to my kit as it provided a "get it done quickly" tool, I ended up using it more and more. Now all of my work is Python based, all of my analysis is dependant on Python libraries (Matplotlib, Pandas, Scipy etc.).
@@ -54,10 +48,11 @@ For anyone unfamiliar with elisp, it simply opens a file with today's date in my
 
 This code however, is nothing to some of the amazing things that other people create!
 
-#+BEGIN_EXPORT html
-<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A bigger bang-for-your-buck demo of CSV transpose <a href="https://t.co/Z3fTYmOhQP">pic.twitter.com/Z3fTYmOhQP</a></p>&mdash; emacs gifs (@emacs_gifs) <a href="https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc%5Etfw">October 7, 2016</a></blockquote>
+#+BEGIN_HTML
+<blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A bigger bang-for-your-buck demo of CSV transpose <ahref="https://t.co/Z3fTYmOhQP">pic.twitter.com/Z3fTYmOhQP</a></p>&mdash; emacs gifs (@emacs_gifs) <ahref="https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc%5Etfw">October 7, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-#+END_EXPORT
+#+END_HTML
+
 
 This beautiful example of transposing a CSV file is just one example I came across the other day.
 
