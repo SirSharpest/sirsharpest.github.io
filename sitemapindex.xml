@@ -7,54 +7,50 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/blog.xml</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/cat_blog.xml</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/cat_emacs.xml</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/cat_research.xml</loc>
-  <lastmod>2018-04-08T00:33:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/coding.xml</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/dissertation.xml</loc>
-  <lastmod>2018-04-08T00:33:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/emacs.xml</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/programming.xml</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/rant.xml</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/research.xml</loc>
-  <lastmod>2018-04-08T00:33:00Z</lastmod>
- </sitemap>
- <sitemap>
-  <loc>https://sirsharpest.github.io/galleries/rss.xml</loc>
-  <lastmod>2018-04-09T00:56:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/rss.xml</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/sitemap.xml</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
 </sitemapindex>

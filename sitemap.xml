@@ -7,82 +7,74 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>https://sirsharpest.github.io/</loc>
-  <lastmod>2018-04-07T22:00:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/2018/</loc>
-  <lastmod>2018-04-07T21:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
-  <lastmod>2018-04-07T21:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/cat_blog/</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/cat_emacs/</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/cat_research/</loc>
-  <lastmod>2018-04-08T00:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/coding/</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/dissertation/</loc>
-  <lastmod>2018-04-08T00:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/emacs/</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/programming/</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/rant/</loc>
-  <lastmod>2018-04-07T21:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/research/</loc>
-  <lastmod>2018-04-08T00:18:00Z</lastmod>
- </url>
- <url>
-  <loc>https://sirsharpest.github.io/galleries/</loc>
-  <lastmod>2018-04-07T21:14:00Z</lastmod>
- </url>
- <url>
-  <loc>https://sirsharpest.github.io/listings/</loc>
-  <lastmod>2018-04-07T21:14:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</loc>
-  <lastmod>2018-04-09T23:27:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/call-me-ishmael/</loc>
-  <lastmod>2018-04-07T21:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/csvs-to-org-tables/</loc>
-  <lastmod>2018-04-07T22:09:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/dissertation-update/</loc>
-  <lastmod>2018-04-08T00:18:00Z</lastmod>
+  <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
 </urlset>

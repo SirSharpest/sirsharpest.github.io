@@ -48,10 +48,11 @@ For anyone unfamiliar with elisp, it simply opens a file with today's date in my
 
 This code however, is nothing to some of the amazing things that other people create!
 
-#+BEGIN_HTML
+#+BEGIN_EXPORT html
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">A bigger bang-for-your-buck demo of CSV transpose <a href="https://t.co/Z3fTYmOhQP">pic.twitter.com/Z3fTYmOhQP</a></p>&mdash; emacs gifs (@emacs_gifs) <a href="https://twitter.com/emacs_gifs/status/784248191851954177?ref_src=twsrc%5Etfw">October 7, 2016</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-#+END_HTML
+#+END_EXPORT
+
 
 
 This beautiful example of transposing a CSV file is just one example I came across the other day.

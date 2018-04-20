@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Nathan Hughes' blog</title><link>https://sirsharpest.github.io/</link><description>A blog ranting about my research, personal projects and all that I find interesting</description><atom:link type="application/rss+xml" href="https://sirsharpest.github.io/rss.xml" rel="self"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Tue, 10 Apr 2018 00:08:55 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Ramble About ELisp</title><link>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
-&lt;h2 id="sec-1"&gt;My current language situation&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Hughes' blog</title><link>https://sirsharpest.github.io/</link><description>A blog ranting about my research, personal projects and all that I find interesting</description><atom:link type="application/rss+xml" href="https://sirsharpest.github.io/rss.xml" rel="self"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Fri, 20 Apr 2018 20:25:49 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>A Ramble About ELisp</title><link>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org82129b5" class="outline-2"&gt;
+&lt;h2 id="org82129b5"&gt;My current language situation&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org82129b5"&gt;
 &lt;p&gt;
 My first programming language was C++, about 11 years ago I picked up the book "C++ for dummies". Like many teenagers I wanted to make my own games and every resource I came across told me that I would need to learn C++. So I did.
 &lt;/p&gt;
@@ -19,10 +19,8 @@ My point of this initial rant is that I created an annoying situation for myself
 &lt;/p&gt;
 
 &lt;ol class="org-ol"&gt;
-&lt;li&gt;Do I want it written quickly? - Use Python
-&lt;/li&gt;
-&lt;li&gt;Do I want it to perform efficiently - Use C/C++
-&lt;/li&gt;
+&lt;li&gt;Do I want it written quickly? - Use Python&lt;/li&gt;
+&lt;li&gt;Do I want it to perform efficiently - Use C/C++&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;p&gt;
@@ -31,9 +29,9 @@ As someone who genuinely loves programming and playing with new languages, this 
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-2" class="outline-2"&gt;
-&lt;h2 id="sec-2"&gt;Along comes emacs&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;div id="outline-container-org7cf11ec" class="outline-2"&gt;
+&lt;h2 id="org7cf11ec"&gt;Along comes emacs&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org7cf11ec"&gt;
 &lt;p&gt;
 I'll spare the story about how emacs changed my life and I was saved from a life of cumbersome IDEs. The short of it is, emacs became my editor around the same time I picked up Python.
 &lt;/p&gt;
@@ -44,9 +42,9 @@ A few months ago however I started to truly love emacs, building an editor to be
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-3" class="outline-2"&gt;
-&lt;h2 id="sec-3"&gt;elisp&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-3"&gt;
+&lt;div id="outline-container-org1bd215b" class="outline-2"&gt;
+&lt;h2 id="org1bd215b"&gt;elisp&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org1bd215b"&gt;
 &lt;p&gt;
 Emacs isn't a text editor. It's a lisp interpreter, it just happens to be a great editor when you toy with it enough (paraphrasing the old operating system joke there!).
 &lt;/p&gt;
@@ -77,6 +75,7 @@ This code however, is nothing to some of the amazing things that other people cr
 &lt;script async src="https://platform.twitter.com/widgets.js" charset="utf-8"&gt;&lt;/script&gt;
 
 
+
 &lt;p&gt;
 This beautiful example of transposing a CSV file is just one example I came across the other day.
 &lt;/p&gt;
@@ -85,9 +84,9 @@ This beautiful example of transposing a CSV file is just one example I came acro
 Maybe it's simple, but writing code which changes how we code is something that I am endlessly fascinated by.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>emacs</category><category>programming</category><guid>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</guid><pubDate>Mon, 09 Apr 2018 23:09:40 GMT</pubDate></item><item><title>Dissertation Update</title><link>https://sirsharpest.github.io/posts/dissertation-update/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
-&lt;h2 id="sec-1"&gt;What am I working on?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;</description><category>emacs</category><category>programming</category><guid>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</guid><pubDate>Mon, 09 Apr 2018 23:09:40 GMT</pubDate></item><item><title>Dissertation Update</title><link>https://sirsharpest.github.io/posts/dissertation-update/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-orge9c4d27" class="outline-2"&gt;
+&lt;h2 id="orge9c4d27"&gt;What am I working on?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orge9c4d27"&gt;
 &lt;p&gt;
 In sort I am trying to model how the morphometric traits of various genotypes of wheat interact.
 &lt;/p&gt;
@@ -97,44 +96,33 @@ To do this I'm using µ-CT image analysis to find and extract the 3D traits of w
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-1-1" class="outline-3"&gt;
-&lt;h3 id="sec-1-1"&gt;Types of wheat being used and their ploidy&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;div id="outline-container-org400fd8b" class="outline-3"&gt;
+&lt;h3 id="org400fd8b"&gt;Types of wheat being used and their ploidy&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org400fd8b"&gt;
 &lt;p&gt;
 The types of wheat being used in this study are:
 &lt;/p&gt;
 
 &lt;ul class="org-ul"&gt;
-&lt;li&gt;Wild Monococcum (2N)
-&lt;/li&gt;
-&lt;li&gt;Domesticated Monococcum (2N)
-&lt;/li&gt;
-&lt;li&gt;Tauschii (2N)
-&lt;/li&gt;
-&lt;li&gt;Durum (4N)
-&lt;/li&gt;
-&lt;li&gt;Dicoccoides (4N)
-&lt;/li&gt;
-&lt;li&gt;Dicoccum (4N)
-&lt;/li&gt;
-&lt;li&gt;Ispahanicum (4N)
-&lt;/li&gt;
-&lt;li&gt;Timopheevii (4N)
-&lt;/li&gt;
-&lt;li&gt;Spelta(6N)
-&lt;/li&gt;
-&lt;li&gt;Aestivum (6N)
-&lt;/li&gt;
-&lt;li&gt;Compactum (6N)
-&lt;/li&gt;
+&lt;li&gt;Wild Monococcum (2N)&lt;/li&gt;
+&lt;li&gt;Domesticated Monococcum (2N)&lt;/li&gt;
+&lt;li&gt;Tauschii (2N)&lt;/li&gt;
+&lt;li&gt;Durum (4N)&lt;/li&gt;
+&lt;li&gt;Dicoccoides (4N)&lt;/li&gt;
+&lt;li&gt;Dicoccum (4N)&lt;/li&gt;
+&lt;li&gt;Ispahanicum (4N)&lt;/li&gt;
+&lt;li&gt;Timopheevii (4N)&lt;/li&gt;
+&lt;li&gt;Spelta(6N)&lt;/li&gt;
+&lt;li&gt;Aestivum (6N)&lt;/li&gt;
+&lt;li&gt;Compactum (6N)&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-2" class="outline-2"&gt;
-&lt;h2 id="sec-2"&gt;What's the status?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;div id="outline-container-org2b6221b" class="outline-2"&gt;
+&lt;h2 id="org2b6221b"&gt;What's the status?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org2b6221b"&gt;
 &lt;p&gt;
 Currently I'm in the stage of writing up my results and also trying to find more biologically significant information
 in the data that I've gathered.
@@ -147,15 +135,15 @@ through my graphs in the office the other day to see if anything jumped out at u
 
 
 
-&lt;div id="fig:graphs" class="figure"&gt;
+&lt;div id="org225a80e" class="figure"&gt;
 &lt;p&gt;&lt;img src="https://sirsharpest.github.io/images/floor.jpg" alt="floor.jpg" width="100%" align="center"&gt;
 &lt;/p&gt;
-&lt;p&gt;&lt;span class="figure-number"&gt;Figure 1:&lt;/span&gt; Graphs galore!&lt;/p&gt;
+&lt;p&gt;&lt;span class="figure-number"&gt;Figure 1: &lt;/span&gt;Graphs galore!&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>dissertation</category><category>research</category><guid>https://sirsharpest.github.io/posts/dissertation-update/</guid><pubDate>Sun, 08 Apr 2018 00:33:11 GMT</pubDate></item><item><title>Read CSVs to org tables</title><link>https://sirsharpest.github.io/posts/csvs-to-org-tables/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
-&lt;h2 id="sec-1"&gt;Turning CSV files into beautiful org-mode tables&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;</description><category>dissertation</category><category>research</category><guid>https://sirsharpest.github.io/posts/dissertation-update/</guid><pubDate>Sun, 08 Apr 2018 00:33:11 GMT</pubDate></item><item><title>Read CSVs to org tables</title><link>https://sirsharpest.github.io/posts/csvs-to-org-tables/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org67d15fd" class="outline-2"&gt;
+&lt;h2 id="org67d15fd"&gt;Turning CSV files into beautiful org-mode tables&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org67d15fd"&gt;
 &lt;p&gt;
 One thing I find myself doing a lot is working with CSV (comma separated value) files, I store a lot of my data in them. I also find that I need to edit them a lot, or check the values in them. I generally then want to use them in reports that I write, at least I like to put in samples of the data to give readers an indication of what I'm talking about.
 &lt;/p&gt;
@@ -166,9 +154,9 @@ It simply takes a file location from the user and formats a nice org mode style 
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-1-1" class="outline-3"&gt;
-&lt;h3 id="sec-1-1"&gt;Elisp code&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-1-1"&gt;
+&lt;div id="outline-container-org2cb4c87" class="outline-3"&gt;
+&lt;h3 id="org2cb4c87"&gt;Elisp code&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org2cb4c87"&gt;
 &lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;defun&lt;/span&gt; &lt;span class="nv"&gt;org-read-csv&lt;/span&gt; &lt;span class="p"&gt;()&lt;/span&gt;
   &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;interactive&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
   &lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nf"&gt;progn&lt;/span&gt;
@@ -186,18 +174,18 @@ It simply takes a file location from the user and formats a nice org mode style 
 &lt;/pre&gt;&lt;/div&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>coding</category><category>emacs</category><guid>https://sirsharpest.github.io/posts/csvs-to-org-tables/</guid><pubDate>Sat, 07 Apr 2018 22:04:15 GMT</pubDate></item><item><title>Call me Ishmael</title><link>https://sirsharpest.github.io/posts/call-me-ishmael/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-sec-1" class="outline-2"&gt;
-&lt;h2 id="sec-1"&gt;Where am I?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-1"&gt;
+&lt;/div&gt;</description><category>coding</category><category>emacs</category><guid>https://sirsharpest.github.io/posts/csvs-to-org-tables/</guid><pubDate>Sat, 07 Apr 2018 22:04:15 GMT</pubDate></item><item><title>Call me Ishmael</title><link>https://sirsharpest.github.io/posts/call-me-ishmael/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org303f8b8" class="outline-2"&gt;
+&lt;h2 id="org303f8b8"&gt;Where am I?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org303f8b8"&gt;
 &lt;p&gt;
 This is my &lt;b&gt;brand&lt;/b&gt; new blog, problems with my past hosting service, a nauseating CMS (wordpress) and a desire to write my rants in the beautiful org-mode led me to creating this site.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-sec-2" class="outline-2"&gt;
-&lt;h2 id="sec-2"&gt;What's it for?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-2"&gt;
+&lt;div id="outline-container-orgf14a798" class="outline-2"&gt;
+&lt;h2 id="orgf14a798"&gt;What's it for?&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgf14a798"&gt;
 &lt;p&gt;
 What's any blog for really?
 &lt;/p&gt;
