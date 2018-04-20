@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Hughes' blog</title><link>https://sirsharpest.github.io/</link><description>A blog ranting about my research, personal projects and all that I find interesting</description><atom:link type="application/rss+xml" rel="self" href="https://sirsharpest.github.io/rss.xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Fri, 20 Apr 2018 23:31:36 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Fallacy of Robust Science</title><link>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org8c5fc55" class="outline-2"&gt;
-&lt;h2 id="org8c5fc55"&gt;Part 1: The Best-laid schemes&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org8c5fc55"&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Hughes' blog</title><link>https://sirsharpest.github.io/</link><description>A blog ranting about my research, personal projects and all that I find interesting</description><atom:link type="application/rss+xml" rel="self" href="https://sirsharpest.github.io/rss.xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Fri, 20 Apr 2018 23:46:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Fallacy of Robust Science</title><link>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-orgddcc4f8" class="outline-2"&gt;
+&lt;h2 id="orgddcc4f8"&gt;Part 1: The Best-laid schemes&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgddcc4f8"&gt;
 &lt;p&gt;
 Scientific experiments &lt;b&gt;should&lt;/b&gt; be performed with ruthless accuracy, with excellent logbooks and note keeping on all details which could have any impact on the results (no matter how insignificant a detail it may seem). This is agreed upon by all scientific practitioners. Otherwise how could results ever be trusted? How could anyone ever be expected to believe something vaguely described?
 &lt;/p&gt;
@@ -11,9 +11,9 @@ Furthermore, how can anyone ever look at their work, at the thing they spend 36+
 &lt;/p&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org537eaef" class="outline-3"&gt;
-&lt;h3 id="org537eaef"&gt;Repeatably&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org537eaef"&gt;
+&lt;div id="outline-container-org928b048" class="outline-3"&gt;
+&lt;h3 id="org928b048"&gt;Repeatably&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org928b048"&gt;
 &lt;p&gt;
 Consistently demonstrating that for all observations under a specific set of parameters, that &lt;i&gt;X&lt;/i&gt; occurs and has &lt;i&gt;Y&lt;/i&gt; traits; A set of instructions, which could be passed to another in the same area and allow them to reproduce and discover the same findings. This is what (some) scientists consider to be an informative and useful contribution.
 &lt;/p&gt;
@@ -45,9 +45,9 @@ How can we ever be satisfied with the ease, or even the number of times a hypoth
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;div id="outline-container-org8a5d2ed" class="outline-3"&gt;
-&lt;h3 id="org8a5d2ed"&gt;The Formidable Bias&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org8a5d2ed"&gt;
+&lt;div id="outline-container-org90be24b" class="outline-3"&gt;
+&lt;h3 id="org90be24b"&gt;The Formidable Bias&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org90be24b"&gt;
 &lt;p&gt;
 Sherlock Holmes said that "It is an error to argue in front of your data. You can find yourself insensibly twisting them round to suit your theories". Sir Arthur Conan Doyle had a remarkable gift for explaining, and giving evidence towards, the naivety of us humans…
 &lt;/p&gt;
@@ -61,7 +61,7 @@ Wanting to be wrong in your assumptions and hypothesis is one thing, but when th
 &lt;/p&gt;
 
 
-&lt;div id="org9b7f4fa" class="figure"&gt;
+&lt;div id="org2a0ff85" class="figure"&gt;
 &lt;p&gt;&lt;img src="https://sirsharpest.github.io/images/evidence.jpg" alt="evidence.jpg" width="50%" align="center"&gt;
 &lt;/p&gt;
 &lt;p&gt;&lt;span class="figure-number"&gt;Figure 1: &lt;/span&gt;A desire to be right&lt;/p&gt;
@@ -76,7 +76,7 @@ Does there exist such a person who is so humble that they can easily admit to be
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><guid>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</guid><pubDate>Fri, 20 Apr 2018 22:45:54 GMT</pubDate></item><item><title>A Ramble About ELisp</title><link>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org82129b5" class="outline-2"&gt;
+&lt;/div&gt;</description><category>science research</category><guid>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</guid><pubDate>Fri, 20 Apr 2018 22:45:54 GMT</pubDate></item><item><title>A Ramble About ELisp</title><link>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-org82129b5" class="outline-2"&gt;
 &lt;h2 id="org82129b5"&gt;My current language situation&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-org82129b5"&gt;
 &lt;p&gt;

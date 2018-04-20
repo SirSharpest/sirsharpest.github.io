@@ -2,10 +2,10 @@
 .. title: The Fallacy of Robust Science
 .. slug: the-fallacy-of-robust-science
 .. date: 2018-04-20 23:45:54 UTC+01:00
-.. tags:
-.. category:
+.. tags: science research
+.. category: research
 .. link:
-.. description:
+.. description: An introduction to multi-part opinion series on science
 .. type: text
 #+END_COMMENT
 

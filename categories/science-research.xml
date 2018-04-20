@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Hughes' blog (Posts about research)</title><link>https://sirsharpest.github.io/</link><description></description><atom:link type="application/rss+xml" rel="self" href="https://sirsharpest.github.io/categories/cat_research.xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Fri, 20 Apr 2018 23:46:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Fallacy of Robust Science</title><link>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-orgddcc4f8" class="outline-2"&gt;
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nathan Hughes' blog (Posts about science research)</title><link>https://sirsharpest.github.io/</link><description></description><atom:link type="application/rss+xml" rel="self" href="https://sirsharpest.github.io/categories/science-research.xml"></atom:link><language>en</language><copyright>Contents © 2018 &lt;a href="mailto:nathan1hughes@gmail.com"&gt;Nathan Hughes&lt;/a&gt; </copyright><lastBuildDate>Fri, 20 Apr 2018 23:46:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>The Fallacy of Robust Science</title><link>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-orgddcc4f8" class="outline-2"&gt;
 &lt;h2 id="orgddcc4f8"&gt;Part 1: The Best-laid schemes&lt;/h2&gt;
 &lt;div class="outline-text-2" id="text-orgddcc4f8"&gt;
 &lt;p&gt;
@@ -76,61 +76,4 @@ Does there exist such a person who is so humble that they can easily admit to be
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-&lt;/div&gt;</description><category>science research</category><guid>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</guid><pubDate>Fri, 20 Apr 2018 22:45:54 GMT</pubDate></item><item><title>Dissertation Update</title><link>https://sirsharpest.github.io/posts/dissertation-update/</link><dc:creator>Nathan Hughes</dc:creator><description>&lt;div id="outline-container-orge9c4d27" class="outline-2"&gt;
-&lt;h2 id="orge9c4d27"&gt;What am I working on?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-orge9c4d27"&gt;
-&lt;p&gt;
-In sort I am trying to model how the morphometric traits of various genotypes of wheat interact.
-&lt;/p&gt;
-
-&lt;p&gt;
-To do this I'm using µ-CT image analysis to find and extract the 3D traits of wheat seeds.
-&lt;/p&gt;
-&lt;/div&gt;
-
-&lt;div id="outline-container-org400fd8b" class="outline-3"&gt;
-&lt;h3 id="org400fd8b"&gt;Types of wheat being used and their ploidy&lt;/h3&gt;
-&lt;div class="outline-text-3" id="text-org400fd8b"&gt;
-&lt;p&gt;
-The types of wheat being used in this study are:
-&lt;/p&gt;
-
-&lt;ul class="org-ul"&gt;
-&lt;li&gt;Wild Monococcum (2N)&lt;/li&gt;
-&lt;li&gt;Domesticated Monococcum (2N)&lt;/li&gt;
-&lt;li&gt;Tauschii (2N)&lt;/li&gt;
-&lt;li&gt;Durum (4N)&lt;/li&gt;
-&lt;li&gt;Dicoccoides (4N)&lt;/li&gt;
-&lt;li&gt;Dicoccum (4N)&lt;/li&gt;
-&lt;li&gt;Ispahanicum (4N)&lt;/li&gt;
-&lt;li&gt;Timopheevii (4N)&lt;/li&gt;
-&lt;li&gt;Spelta(6N)&lt;/li&gt;
-&lt;li&gt;Aestivum (6N)&lt;/li&gt;
-&lt;li&gt;Compactum (6N)&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-
-&lt;div id="outline-container-org2b6221b" class="outline-2"&gt;
-&lt;h2 id="org2b6221b"&gt;What's the status?&lt;/h2&gt;
-&lt;div class="outline-text-2" id="text-org2b6221b"&gt;
-&lt;p&gt;
-Currently I'm in the stage of writing up my results and also trying to find more biologically significant information
-in the data that I've gathered.
-&lt;/p&gt;
-
-&lt;p&gt;
-Our methods for finding meaning have become rather primitive as the below image demonstrates :) myself and a few others searched
-through my graphs in the office the other day to see if anything jumped out at us for further exploration. I can't be sharing data yet, but a lot of things have become more interesting and we are very eager to explore!
-&lt;/p&gt;
-
-
-
-&lt;div id="org225a80e" class="figure"&gt;
-&lt;p&gt;&lt;img src="https://sirsharpest.github.io/images/floor.jpg" alt="floor.jpg" width="100%" align="center"&gt;
-&lt;/p&gt;
-&lt;p&gt;&lt;span class="figure-number"&gt;Figure 1: &lt;/span&gt;Graphs galore!&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;/div&gt;</description><category>dissertation</category><category>research</category><guid>https://sirsharpest.github.io/posts/dissertation-update/</guid><pubDate>Sun, 08 Apr 2018 00:33:11 GMT</pubDate></item></channel></rss>
+&lt;/div&gt;</description><category>science research</category><guid>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</guid><pubDate>Fri, 20 Apr 2018 22:45:54 GMT</pubDate></item></channel></rss>
