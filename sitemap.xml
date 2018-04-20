@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-20T20:25:00Z</lastmod>
+  <lastmod>2018-04-20T23:13:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-20T20:25:00Z</lastmod>
+  <lastmod>2018-04-20T20:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
@@ -62,8 +62,16 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sirsharpest.github.io/categories/stats-bayesian-plants-science-research/</loc>
+  <lastmod>2018-04-20T20:48:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/bayesian-stats-for-plant-sciences/</loc>
+  <lastmod>2018-04-20T20:48:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/call-me-ishmael/</loc>
@@ -76,5 +84,9 @@
  <url>
   <loc>https://sirsharpest.github.io/posts/dissertation-update/</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</loc>
+  <lastmod>2018-04-20T23:10:00Z</lastmod>
  </url>
 </urlset>
