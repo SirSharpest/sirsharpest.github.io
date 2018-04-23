@@ -37,7 +37,7 @@ header {
   z-index: 10;
   top: 0;
   width: 100%;
-  font-family: 'Roboto', cursive;
+  font-family: 'Roboto', sans-serif;
   min-height: 50px;
   box-shadow: inset 0px -4px 7px -4px #304860;
 }
@@ -299,7 +299,7 @@ footer .copyright a:hover {
 .meta-header .container,
 .post-header .container {
   text-align: center;
-  font-family: 'Roboto', cursive;
+  font-family: 'Roboto', sans-serif;
 }
 .tagline .post-meta,
 .meta-header .post-meta,
