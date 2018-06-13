@@ -42,10 +42,6 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>https://sirsharpest.github.io/categories/literate.xml</loc>
-  <lastmod>2018-06-13T11:37:00Z</lastmod>
- </sitemap>
- <sitemap>
   <loc>https://sirsharpest.github.io/categories/programming.xml</loc>
   <lastmod>2018-06-13T18:38:00Z</lastmod>
  </sitemap>
@@ -67,10 +63,10 @@
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/rss.xml</loc>
-  <lastmod>2018-06-13T18:58:00Z</lastmod>
+  <lastmod>2018-06-13T19:03:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/sitemap.xml</loc>
-  <lastmod>2018-06-13T18:58:00Z</lastmod>
+  <lastmod>2018-06-13T19:03:00Z</lastmod>
  </sitemap>
 </sitemapindex>
