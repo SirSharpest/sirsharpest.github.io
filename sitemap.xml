@@ -15,11 +15,11 @@
  </url>
  <url>
   <loc>https://sirsharpest.github.io/archive.html</loc>
-  <lastmod>2018-04-20T23:39:00Z</lastmod>
+  <lastmod>2018-06-13T11:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/</loc>
-  <lastmod>2018-04-20T23:47:00Z</lastmod>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/blog/</loc>
@@ -34,12 +34,20 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sirsharpest.github.io/categories/cat_programming/</loc>
+  <lastmod>2018-06-13T11:37:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sirsharpest.github.io/categories/cat_research/</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/coding/</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/data/</loc>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/dissertation/</loc>
@@ -50,8 +58,16 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </url>
  <url>
+  <loc>https://sirsharpest.github.io/categories/literate/</loc>
+  <lastmod>2018-06-13T11:37:00Z</lastmod>
+ </url>
+ <url>
   <loc>https://sirsharpest.github.io/categories/programming/</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/categories/python/</loc>
+  <lastmod>2018-06-13T11:37:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/categories/rant/</loc>
@@ -64,6 +80,10 @@
  <url>
   <loc>https://sirsharpest.github.io/categories/science/</loc>
   <lastmod>2018-04-20T23:47:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/a-brief-look-at-literate-programming-for-scientific-analysis/</loc>
+  <lastmod>2018-06-13T11:02:00Z</lastmod>
  </url>
  <url>
   <loc>https://sirsharpest.github.io/posts/a-ramble-about-elisp/</loc>
@@ -84,5 +104,9 @@
  <url>
   <loc>https://sirsharpest.github.io/posts/the-fallacy-of-robust-science/</loc>
   <lastmod>2018-04-20T23:10:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://sirsharpest.github.io/posts/the-problem-of-finding-everything-interesting/</loc>
+  <lastmod>2018-06-13T11:02:00Z</lastmod>
  </url>
 </urlset>

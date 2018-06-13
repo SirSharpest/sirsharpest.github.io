@@ -415,7 +415,7 @@ code {
 /* background color for pygmentize monokai theme */
 .highlight pre {
   background: #fcf7f7 none repeat scroll 0 0;
-  color: #f8f8f2;
+  color: #000000;
 }
 pre.literal-block,
 blockquote {

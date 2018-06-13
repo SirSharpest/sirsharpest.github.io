@@ -18,12 +18,20 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://sirsharpest.github.io/categories/cat_programming.xml</loc>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://sirsharpest.github.io/categories/cat_research.xml</loc>
   <lastmod>2018-04-20T23:47:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/coding.xml</loc>
   <lastmod>2018-04-20T20:25:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://sirsharpest.github.io/categories/data.xml</loc>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/dissertation.xml</loc>
@@ -34,8 +42,16 @@
   <lastmod>2018-04-20T20:25:00Z</lastmod>
  </sitemap>
  <sitemap>
+  <loc>https://sirsharpest.github.io/categories/literate.xml</loc>
+  <lastmod>2018-06-13T11:37:00Z</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>https://sirsharpest.github.io/categories/programming.xml</loc>
-  <lastmod>2018-04-20T20:25:00Z</lastmod>
+  <lastmod>2018-06-13T18:38:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>https://sirsharpest.github.io/categories/python.xml</loc>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/rant.xml</loc>
@@ -47,14 +63,14 @@
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/categories/science.xml</loc>
-  <lastmod>2018-04-20T23:47:00Z</lastmod>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/rss.xml</loc>
-  <lastmod>2018-04-20T23:47:00Z</lastmod>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </sitemap>
  <sitemap>
   <loc>https://sirsharpest.github.io/sitemap.xml</loc>
-  <lastmod>2018-04-20T23:56:00Z</lastmod>
+  <lastmod>2018-06-13T18:58:00Z</lastmod>
  </sitemap>
 </sitemapindex>
